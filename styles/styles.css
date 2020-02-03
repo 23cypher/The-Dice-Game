@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: rgb(29, 58, 34);
+    color: #fafafa;
+    font-family: 'Flamenco', cursive;
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.main-head{
+    display:block;
+    text-align: center;
+    margin-bottom:60px;
+    position: absolute;
+    padding-top: 50px;
+    left: 5%;
+}
+.title{
+    width: 50% ;
+    font-weight: bolder;
+    font-size:30px;
+    margin: none;
+    color:rgb(13, 172, 7)
+}
+#short{
+    padding-top: 10px;
+    text-align:right;
+    color:rgb(214, 92, 55)
+}
+span {
+    border-bottom: 1px solid #674a92;
+    display: inline-block;
+    font-size: 2rem;
+    height: 2.4rem;
+    line-height: 2.4rem;
+    margin: 0 .1rem;
+    text-align: center;
+    text-transform: uppercase;
+    width: 2.4rem;
+}
+
+p {
+    font-weight: 300;
+    margin-bottom: .8rem;
+}
+
+.puzzle {
+    display: flex;
+    margin-bottom: 4.8rem;
+}
+
+.button {
+    background: #4035d4;
+    border: none;
+    border-bottom: 2px solid #35d4cc;
+    border-radius: 20%;
+    cursor: pointer;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 300;
+    padding: .8rem;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.button:hover {
+    background: rgb(85, 216, 73);
+}
